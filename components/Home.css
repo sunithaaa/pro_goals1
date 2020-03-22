@@ -1,0 +1,80 @@
+.header{
+    height: 100px;
+    background-color: rgba(2, 0, 5, 0.692);
+    text-align: center;
+    font-size: 70px;
+    font-family: Goudy Old Style;
+    color: blanchedalmond;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.747);
+}
+#logo{
+    margin-top: 10px;
+    height: 70px;
+    width: 70px;
+}
+.footerdesign{
+    position: relative;
+    margin-top: 500px;
+    height: 50px;
+    transform: translate(0px,570px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.loginadmin{
+    margin-top: 90px;
+    margin-left:50px;
+    float: left;
+    height: 400px;
+    width: 700px;
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 50px;
+}
+
+.loginadmin:hover, .loginemployee:hover{
+    box-shadow: 8px 8px 8px 8px rgba(18, 29, 94, 0.74)
+}
+.loginemployee{
+    margin-top: 90px;
+    margin-right:50px;
+    float: right;
+    height: 400px;
+    width: 700px;
+    background-color: rgba(255, 245, 244, 0.568);
+    border-radius: 50px;
+}
+.icon{
+    background-color: rgba(255, 255, 255, 0.849);
+    height: 100%;
+    width: 20%;
+    float: left;
+    border-radius: 50px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    text-align: center;
+}
+.icon img{
+    margin-top: 150px;
+}
+.form{
+    font-family: Goudy Old Style;
+    text-align: center;
+    align-self: center;
+}
+.id{
+    margin-top: 110px;
+}
+.password{
+    padding: 20px;
+}
+.login{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    border: 0;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.219);
+}
+.login:hover{
+    background-color: rgba(0, 0, 0, 0.767);
+    color:white;
+    box-shadow: 8px 8px 8px rgb(248, 248, 248);
+}
